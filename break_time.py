@@ -9,11 +9,11 @@ def take_break():
     total_time = 3
     break_time = 0
 
-    print("this program ")
+    print("this program  start", time.ctime())
 
     while break_time < total_time:
-        time.sleep(3)
-        webbrowser.open('https://www.youtube.com/')
+        time.sleep(10)
+        webbrowser.open('https://www.youtube.com/watch?v=ZxPmVmh9Mng')
         break_time = break_time + 1
 
 take_break()

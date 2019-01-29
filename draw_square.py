@@ -44,7 +44,7 @@ def draw_art():
     tri.speed('fast')
     draw_tri(tri)
 
-# exit window on click
+# exit window on clickk
     window.exitonclick()
 
 draw_art()

@@ -22,6 +22,7 @@ def draw_stem(stem):
 
 def flower():
 
+
     window = turtle.Screen()
     window.bgcolor('green')
 

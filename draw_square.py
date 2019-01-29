@@ -32,17 +32,17 @@ def draw_art():
     draw_square(brad)
 
     # creating the angie - draw circle
-    # angie = turtle.Turtle()
-    # angie.shape('arrow')
-    # angie.speed('fast')
-    # angie.color('yellow')
-    # draw_circle(angie)
+    angie = turtle.Turtle()
+    angie.shape('arrow')
+    angie.speed('fast')
+    angie.color('yellow')
+    draw_circle(angie)
     #
     # # creating the turtle tri - draw triangle
-    # tri = turtle.Turtle()
-    # tri.color('yellow')
-    # tri.speed('fast')
-    # draw_tri(tri)
+    tri = turtle.Turtle()
+    tri.color('yellow')
+    tri.speed('fast')
+    draw_tri(tri)
 
 # exit window on click
     window.exitonclick()
